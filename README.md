@@ -9,28 +9,27 @@ An end-to-end sales analytics dashboard built on the **Northwind OData API**, an
 ## Screenshots
 
 **Overview**
-![Overview](docs/screenshots/overview.png)
+![Overview](docs/screenshots/01_Overview.png)
 - Total Sales: **1.35M** | Total Freight: **64.94K** | Orders: **830**
 - Air Shipment Sales: **373.98K** | CY Sales: **469.77K**
 - Sales by Category (donut) and Top 10 Products by Sales (bar)
 
 **Country x Category Matrix**
-![Matrix](docs/screenshots/matrix.png)
+![Matrix](docs/screenshots/02_Country_Category_Analysis.png)
 - Cross-tab of sales by Country and Category with grand totals
 
 **Q&A / Natural Language Query**
-![Q&A](docs/screenshots/qna.png)
+![Q&A](docs/screenshots/03_QA_Visual.png)
 - Power BI's built-in Q&A visual answering "total revenue" conversationally
 
 **Sales by Country (Map)**
-![Map](docs/screenshots/map.png)
+![Map](docs/screenshots/04_Geography.png)
 - Bubble map sized by total sales per country
 
 **Sales Trend Over Time**
-![Trend](docs/screenshots/trend.png)
+![Trend](docs/screenshots/05_Time_Trend.png)
 - Monthly/quarterly sales trend from Jul 1996–Apr 1998
 
-> Export each report page as PNG (File → Export → Export to PDF, then screenshot each page, or use *File → Export → PowerPoint* and screenshot from there) and save them into `docs/screenshots/` using the names above.
 
 ## Data Source
 - **Northwind OData API**: `https://services.odata.org/Northwind/Northwind.svc/`
